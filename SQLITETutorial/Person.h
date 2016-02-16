@@ -10,4 +10,6 @@
 
 @interface Person : NSObject
 
+@property(nonatomic,retain)NSString *name;
+@property(assign)int age;
 @end

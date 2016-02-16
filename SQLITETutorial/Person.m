@@ -9,5 +9,5 @@
 #import "Person.h"
 
 @implementation Person
-
+@synthesize name,age;
 @end

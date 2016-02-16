@@ -21,6 +21,8 @@
 		77D130871983889C001522AD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77D130691983889C001522AD /* UIKit.framework */; };
 		77D1308F1983889C001522AD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 77D1308D1983889C001522AD /* InfoPlist.strings */; };
 		77D130911983889C001522AD /* SQLITETutorialTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 77D130901983889C001522AD /* SQLITETutorialTests.m */; };
+		77D1309B198388C2001522AD /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 77D1309A198388C2001522AD /* libsqlite3.0.dylib */; };
+		77D1309E19838A44001522AD /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 77D1309D19838A44001522AD /* Person.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,9 @@
 		77D1308C1983889C001522AD /* SQLITETutorialTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SQLITETutorialTests-Info.plist"; sourceTree = "<group>"; };
 		77D1308E1983889C001522AD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		77D130901983889C001522AD /* SQLITETutorialTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SQLITETutorialTests.m; sourceTree = "<group>"; };
+		77D1309A198388C2001522AD /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = usr/lib/libsqlite3.0.dylib; sourceTree = SDKROOT; };
+		77D1309C19838A44001522AD /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		77D1309D19838A44001522AD /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +65,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				77D1309B198388C2001522AD /* libsqlite3.0.dylib in Frameworks */,
 				77D130681983889C001522AD /* CoreGraphics.framework in Frameworks */,
 				77D1306A1983889C001522AD /* UIKit.framework in Frameworks */,
 				77D130661983889C001522AD /* Foundation.framework in Frameworks */,
@@ -101,6 +107,7 @@
 		77D130641983889C001522AD /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				77D1309A198388C2001522AD /* libsqlite3.0.dylib */,
 				77D130651983889C001522AD /* Foundation.framework */,
 				77D130671983889C001522AD /* CoreGraphics.framework */,
 				77D130691983889C001522AD /* UIKit.framework */,
@@ -119,6 +126,8 @@
 				77D1307B1983889C001522AD /* ViewController.m */,
 				77D1307D1983889C001522AD /* Images.xcassets */,
 				77D1306C1983889C001522AD /* Supporting Files */,
+				77D1309C19838A44001522AD /* Person.h */,
+				77D1309D19838A44001522AD /* Person.m */,
 			);
 			path = SQLITETutorial;
 			sourceTree = "<group>";
@@ -251,6 +260,7 @@
 			files = (
 				77D1307C1983889C001522AD /* ViewController.m in Sources */,
 				77D130761983889C001522AD /* AppDelegate.m in Sources */,
+				77D1309E19838A44001522AD /* Person.m in Sources */,
 				77D130721983889C001522AD /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
